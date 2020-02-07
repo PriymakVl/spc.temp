@@ -1,0 +1,48 @@
+/*
+
+color: #007bff; main blue
+color: #2a8ffb; main blue light
+color: #ccc;  border grey light
+color: #ebebeb border light light grey;
+color: #666;  font grey not active
+color: #444;  font grey not active dark
+color: #000; white font on blue
+color: #fbc217; active yellow
+background: #fdfdfd; filters
+
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*font-family: 'Open Sans', sans-serif;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 16px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.body__inner {
+	flex-grow: 1;
+	margin-left: 30px;
+}
+
+.page-title {
+	font-size: 1.8em;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
