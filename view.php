@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SPC Product</title>
+	<title>SPC Просмотр товара</title>
 	<script src="https://kit.fontawesome.com/5f29610ead.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/category_content.css">
@@ -11,7 +11,7 @@
 
 <? include 'total/header.php' ?>
 
-<? include 'product/content.php' ?>
+<? include 'view/content.php' ?>
 
 <? include 'total/footer.php' ?>
 

@@ -18,7 +18,7 @@ $products[] = ['name' => 'SA-CN40-15', 'img' => 'cat_fu.jpg'];
 			
 			<? include 'total/breadcrumbs.php' ?>
 
-			<h1 class="page-title">Серия CN</h1>
+			<h1 class="page-title">Блок подготовки воздуха SA-CN20-08</h1>
 
 			<!-- Card -->
 			<div class="card">
@@ -51,8 +51,8 @@ $products[] = ['name' => 'SA-CN40-15', 'img' => 'cat_fu.jpg'];
 						</div>
 					</a>
 				<? endforeach; ?>
-			</div>
-
+			</div> <!-- /.card -->
+			
 
 		</main>
 	</div> <!-- /.body__inner -->
